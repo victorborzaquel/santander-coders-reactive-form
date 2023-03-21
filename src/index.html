@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reactive Form</title>
+  <link rel="stylesheet" href="styles/index.css">
+  <script src="./scripts/variables.js"></script>
+  <script src="./scripts/class.js"></script>
+</head>
+<body>
+  <main>
+    <h1>User Register</h1>
+
+    <form action="" id="form-register">
+      <div class="form-control">
+        
+        <label form-label for="name">Name</label>
+        <input form-input type="text" id="name" name="name" placeholder="Enter your name">
+        <span form-span for="name"></span>
+      </div>
+
+      <div class="form-control">
+        <label form-label for="email">Email</label>
+        <input form-input type="text" name="email" id="email" placeholder="Enter your email">
+        <span form-span for="email"></span>
+      </div>
+
+      <div class="form-control">
+        <label form-label for="password">Password</label>
+        <input form-input type="password" name="password" id="password" placeholder="Enter your password">
+        <span form-span for="password"></span>
+      </div>
+
+      <div class="form-control">
+        <label form-label for="password2">Confirm Password</label>
+        <input form-input type="password" name="password2" id="password2" placeholder="Confirm your password">
+        <span form-span for="password2"></span>
+      </div>
+
+      <div class="form-buttons">
+        <button primary type="submit">Create</button>
+        <button tertiary type="reset">Clear</button>
+      </div>
+    </form>
+  </main>
+  
+  <script src="./scripts/forms.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-title);
+  font-size: var(--font-size-title);
+}
